@@ -1,0 +1,115 @@
+/* 
+Project Name: Homework 1
+Author: Evangeline Garreau
+Developer @GA in Boston
+*/
+
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1;
+     font-family: Georgia, sans-serif;
+     background-image: url("../images/tree_bark.png");
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+#container {
+	max-width: 65%;
+	margin: 50px auto;
+	padding: 20px 30px;
+	background: #fcf6d1;
+	border: 2px solid #fcd200;
+	border-radius: 20px;
+}
+
+header {
+	text-align: center;
+	margin-bottom:40px;
+
+}
+
+nav {
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #dd8c00;
+}
+
+h1{
+	font-size: 40px;
+	color:#000021;
+	margin-bottom:10px;
+}
+
+h2{
+	font-size: 20px;
+	color:#000021;
+
+}
+
+h3{
+	font-size: 15px;
+	color:#000021;
+}
+
+h4{
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+p{
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+img {
+	display: block;
+	margin: 20px auto;
+	max-width: 30%;
+	border-radius: 50px;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+.job-title{
+	font-weight: bold;
+	padding-right: 10px;
+	color:#000021;
+}
+
+.company{
+	padding-right: 25px;
+}
+
+.location{
+	padding-right: 25px;
+	font-style: italic; 
+}
+
+.time-period{}
+
+.description{
+	margin-bottom: 40px;
+	margin-top:-10px;
+}
+
+

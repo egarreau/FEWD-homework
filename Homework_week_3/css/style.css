@@ -1,0 +1,92 @@
+/* 
+Project Name: Startup Matchmaker
+Author: Evangeline Garreau
+Developer @GA in Boston
+*/
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     margin:0;
+     border:0 none;
+     padding:0;
+     max-width: 100%;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+header {
+     background: black;
+     width: 100%;
+     overflow: hidden;
+     padding:0 3%;
+     color: white;
+     border-bottom: 5px solid yellow;
+}
+
+h1{
+     display: inline-block;
+}
+
+
+nav{
+     position: absolute;
+     display: inline-block;
+     right:0;
+     padding: 10px 50px;
+}
+
+button{
+     margin:auto;
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+#header_2{
+     text-align: center;
+     background: gray;
+}
+
+#main{
+     background: url('../images/coworking.jpg') center center no-repeat;
+     background-size: cover;
+     overflow: hidden;
+     display: inline-block;
+     width: 100%;
+}
+
+#transparent_box{
+     max-width: 30%;
+     padding: 2em 3em;
+     margin:3em;
+     float: right;
+     background: gray;
+}
+
+#bottom{
+     display: inline-block;
+     padding: 2em 0;
+}
+
+
+.column{
+     display: inline-block;
+     max-width: 29%;
+     border-left: 1px solid gray;
+     padding: 2em;
+}
+

@@ -1,0 +1,102 @@
+body{
+	max-width: 90%;
+	padding: 3em;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	background: #FFF;
+	color:#444;
+	border-left: 6px solid #DDD;
+	margin:0;
+	display: inline-block;
+}
+
+h1 h2 h3 h4{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: lighter;
+	margin:0;
+	padding:0;
+	display: inline-block;
+}
+
+h2{
+	font-weight: normal;
+	color: black;
+	margin:0;
+	padding:0;
+	display: inline-block;
+}
+
+header h2{
+	font-size: 1.5em;
+	margin-bottom: .5em;
+	margin-left: 1em;
+}
+
+h2 a{
+	color:black;
+}
+
+a{
+	text-decoration: none;
+	color:#D00;
+	padding:0;
+}
+
+header nav a{
+	display: inline-block;
+	font-size: 1.25em;
+	color:#DDD;
+	border-bottom: 2px solid #EEE;
+	margin-right: -4px;
+	padding: .75em 1.8em;
+	background: black;
+}
+
+h3{
+	font-size: 2em;
+	font-weight: normal;
+	color:#CCC;
+	margin-bottom: .25em;
+}
+
+img {
+	margin: 10px 0;
+	max-width: 100%;
+	display: inline-block;
+}
+
+footer{
+	color:#BBB;
+	margin-top: 3em;
+}
+
+
+.more{
+	text-align: right;
+}
+
+.border{
+	border-bottom: 1px solid #DDD;
+	display: inline-block;
+}
+
+
+#left-column{
+	max-width: 63%;
+	display: inline-block;
+	margin-top: 2em;
+}
+
+#right-column{
+	max-width: 25%;
+	display: inline-block;
+	margin-left:2.5em;
+	margin-top: 100px;
+	position:absolute;
+	color:#888;
+}
