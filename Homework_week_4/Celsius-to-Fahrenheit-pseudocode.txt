@@ -1,0 +1,12 @@
+Celsius to Fahrenheit pseudocode
+
+declare a variable for the current temperature in Celsius called cTemp
+declare a variable for the current temperature in Fahrenheit called fTemp
+
+get current temperature in Celsius and store it in cTemp
+
+fTemp = (cTemp * 1.8) + 32
+
+display "The current temperature in Celsius is " cTemp
+
+display "The current temperature in Fahrenheit is " fTemp
